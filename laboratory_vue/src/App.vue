@@ -5,6 +5,7 @@ const drawer = ref(false)
 const items = ref([
   { title: 'List', icon: 'mdi-view-dashboard', to: '/' },
   { title: 'About', icon: 'mdi-help-box', to: 'about' },
+  {title: 'My group', icon: 'mdi-account-group', to: 'my-group'}
 ])
 </script>
 
